@@ -1,0 +1,40 @@
+html {
+	background-color: grey;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.btn {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-half {
+	width: 49.5%;
+}
+
+.btn-block {
+	width: 99.5%;
+}
+
+#root > * {
+	width: 16.6%;
+	height: 40px;
+}
+
+#root > *:hover {
+	text-decoration: none;
+}
+
+.light {
+	font-size: 20px;
+}

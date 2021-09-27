@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	stopBtn.addEventListener("click", stopShow);
 	stopBtn.addEventListener("click", handleDisable);
 
+	const yearPlaceholder = document.getElementById("date-span");
+	yearPlaceholder.innerHTML = new Date().getFullYear();
+
 	addButtons();
 	addSSD();
 });

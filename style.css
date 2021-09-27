@@ -6,6 +6,7 @@ html {
 }
 
 .title {
+	background-color: darkorchid;
 	text-align: center;
 }
 
@@ -37,4 +38,14 @@ html {
 
 .light {
 	font-size: 20px;
+}
+
+#trademark {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 70px;
+	width: 100%;
+	text-align: center;
+	background-color: aquamarine;
 }
